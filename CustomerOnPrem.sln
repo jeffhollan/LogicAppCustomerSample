@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnPrem", "CustomerOnPrem\CustomerOnPrem.csproj", "{B29EBCFC-13D9-4567-830A-35BCD1830960}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2760DCA5-43DE-431A-9654-934E1C2C63C3} = {2760DCA5-43DE-431A-9654-934E1C2C63C3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnPrem.Tests", "CustomerOnPrem.Tests\CustomerOnPrem.Tests.csproj", "{F386B1DD-661C-4CA8-B577-2F9C6804214B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPService", "SOAPService\SOAPService.csproj", "{2760DCA5-43DE-431A-9654-934E1C2C63C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29EBCFC-13D9-4567-830A-35BCD1830960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29EBCFC-13D9-4567-830A-35BCD1830960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29EBCFC-13D9-4567-830A-35BCD1830960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29EBCFC-13D9-4567-830A-35BCD1830960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F386B1DD-661C-4CA8-B577-2F9C6804214B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F386B1DD-661C-4CA8-B577-2F9C6804214B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F386B1DD-661C-4CA8-B577-2F9C6804214B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F386B1DD-661C-4CA8-B577-2F9C6804214B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2760DCA5-43DE-431A-9654-934E1C2C63C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2760DCA5-43DE-431A-9654-934E1C2C63C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2760DCA5-43DE-431A-9654-934E1C2C63C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2760DCA5-43DE-431A-9654-934E1C2C63C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

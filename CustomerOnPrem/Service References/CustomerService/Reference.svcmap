@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3249d62f-cef9-4dd0-8ca1-0ed8378a54ba" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1145/CustomerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CustomerService.xsd" MetadataType="Schema" ID="163ab823-2cb1-4aa4-a0f8-7da99828cc45" SourceId="1" SourceUrl="http://localhost:1145/CustomerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CustomerService.wsdl" MetadataType="Wsdl" ID="d6bd45a4-49b6-4b5e-86b2-5e79af318a2c" SourceId="1" SourceUrl="http://localhost:1145/CustomerService.svc?wsdl" />
+    <MetadataFile FileName="CustomerService1.xsd" MetadataType="Schema" ID="62641d8e-b22e-4dd8-8a4a-6892cdc9f260" SourceId="1" SourceUrl="http://localhost:1145/CustomerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CustomerService2.xsd" MetadataType="Schema" ID="5824301e-9dcf-4666-ae93-8aeb27108b31" SourceId="1" SourceUrl="http://localhost:1145/CustomerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CustomerService.disco" MetadataType="Disco" ID="c87ef650-6e07-40a9-808f-52ea0904334b" SourceId="1" SourceUrl="http://localhost:1145/CustomerService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
